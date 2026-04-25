@@ -8,12 +8,12 @@ This application allows users to instantly calculate monthly mortgage payments b
 
 ## Features
 
-* ** Instant Calculation:** Get monthly mortgage payments as soon as you input data.
-* **Real-time Updates:** Results update dynamically as you adjust the sliders or input fields.
-* ** Interactive Controls:** Easily adjust the loan amount, interest rate, and duration.
-* ** Responsive Design:** Fully optimized for all screen sizes, from mobile to desktop.
-* ** Fast Performance:** Built with Vite for ultra-fast development and optimized production builds.
-* ** Clean UI:** Minimalist and intuitive user interface for a better user experience.
+*  Instant Calculation: Get monthly mortgage payments as soon as you input data.
+* Real-time Updates: Results update dynamically as you adjust the sliders or input fields.
+* Interactive Controls: Easily adjust the loan amount, interest rate, and duration.
+* Responsive Design: Fully optimized for all screen sizes, from mobile to desktop.
+* Fast Performance: Built with Vite for ultra-fast development and optimized production builds.
+* Clean UI: Minimalist and intuitive user interface for a better user experience.
 
 ---
 
