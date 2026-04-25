@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Arial", sans-serif;
-  background: rgba(245, 228, 228, 0.1);
-  color: #333;
+  background-image: url("/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
+
 .navbar {
   background: #ebe4e4;
   padding: 10px;
@@ -53,6 +55,39 @@ body {
   border: none;
   font-size: 20px;
   cursor: pointer;
+}
+/*main content*/
+
+.main-content .container {
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80vh;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.main-content .container .left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.main-content .container .left .top {
+  display: flex;
+  gap: 165px;
+  align-items: center;
+}
+.main-content .container .right {
+  background: #ebe4e4;
+  padding: 20px;
+  border-radius: 10px;
 }
 //input field
 .input-container {
@@ -133,4 +168,17 @@ input[type="range"]::-webkit-slider-thumb {
   margin-top: -6px;
 
   cursor: pointer;
+}
+.results {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+}
+@media (max-width: 390px) {
+  .main-content .container {
+    width: 100%;
+    max-width: none;
+  }
 }
