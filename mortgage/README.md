@@ -1,16 +1,27 @@
-# React + Vite
+# Mortgage Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and responsive Mortgage Calculator Web App built with **React** and **Vite**. 
 
-Currently, two official plugins are available:
+This application allows users to instantly calculate monthly mortgage payments by adjusting the loan amount, interest rate, and loan term. It provides a seamless user experience with real-time feedback.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ** Instant Calculation:** Get monthly mortgage payments as soon as you input data.
+* **Real-time Updates:** Results update dynamically as you adjust the sliders or input fields.
+* ** Interactive Controls:** Easily adjust the loan amount, interest rate, and duration.
+* ** Responsive Design:** Fully optimized for all screen sizes, from mobile to desktop.
+* ** Fast Performance:** Built with Vite for ultra-fast development and optimized production builds.
+* ** Clean UI:** Minimalist and intuitive user interface for a better user experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+* **Framework:** [React.js](https://reactjs.org/)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Language:** JavaScript (ES6+)
+* **Styling:** CSS3
+## Preview
+![App Preview](./src/assets/readme.png)
