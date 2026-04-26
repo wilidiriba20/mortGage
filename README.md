@@ -25,3 +25,5 @@ This application allows users to instantly calculate monthly mortgage payments b
 * **Styling:** CSS3
 ## Preview
 ![App Preview](./mortgage/src/assets/readme.png)
+## deployed
+https://mort-gage-4yqn.vercel.app/
